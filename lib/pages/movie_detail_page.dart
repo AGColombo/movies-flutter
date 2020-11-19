@@ -1,5 +1,5 @@
+import 'package:fancy_shimmer_image/fancy_shimmer_image.dart';
 import 'package:flutter/material.dart';
-
 import '../controllers/movie_detail_controller.dart';
 import '../widgets/centered_message.dart';
 import '../widgets/centered_progress.dart';
@@ -127,8 +127,14 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
   }
 
   _buildCover() {
-    return Image.network(
-      'https://image.tmdb.org/t/p/w500${_controller.movieDetail.backdropPath}',
+    return FancyShimmerImage(
+      imageUrl:
+          'https://image.tmdb.org/t/p/w500${_controller.movieDetail.backdropPath}',
+      shimmerBaseColor: Colors.grey[800],
+      shimmerBackColor: Colors.grey[800],
+      shimmerHighlightColor: Colors.grey[800],
+      errorWidget: Image.network(
+          'https://i0.wp.com/www.dobitaobyte.com.br/wp-content/uploads/2016/02/no_image.png?ssl=1'),
     );
   }
 }

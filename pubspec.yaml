@@ -16,6 +16,7 @@ dependencies:
   effective_dart: ^1.2.4
 
   fancy_shimmer_image: ^1.2.0
+  infinite_scroll_pagination: ^2.0.0
 
 dev_dependencies:
   flutter_test:
