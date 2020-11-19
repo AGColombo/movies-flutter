@@ -16,6 +16,7 @@ Aplicativo de lista de filmes utilizando a API do [TMDb](https://www.themoviedb.
 *   [ ] Trocar a lógica do ScrollController por [InfiniteScrollPagination](https://pub.dev/packages/infinite_scroll_pagination);
 *   [X] Utilizar [FancyShimmerImage](https://pub.dev/packages/fancy_shimmer_image) para os posters (MoviePage) e banners (MovieDetailPage);
 
+
 ## Licença
 
     Copyright 2020 Kleber de Oliveira Andrade

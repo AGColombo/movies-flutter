@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../core/constants.dart';
 import 'movie_detail_page.dart';
 import '../widgets/centered_message.dart';
