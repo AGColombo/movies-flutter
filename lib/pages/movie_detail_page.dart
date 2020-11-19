@@ -63,6 +63,8 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
       children: [
         _buildCover(),
         _buildStatus(),
+        _buildTitle(),
+        _buildTagline(),
         _buildOverview(),
       ],
     );
@@ -86,8 +88,40 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Rate(_controller.movieDetail.voteAverage),
+          _buildStatusTwo(),
           ChipDate(date: _controller.movieDetail.releaseDate),
         ],
+      ),
+    );
+  }
+
+  _buildStatusTwo() {
+    return Container(
+      padding: const EdgeInsets.only(right: 10.0),
+      child: Text(
+        _controller.movieDetail.runtime.toString() + ' min',
+        style: Theme.of(context).textTheme.headline6,
+        textAlign: TextAlign.left,
+      ),
+    );
+  }
+
+  _buildTitle() {
+    return Container(
+      padding: const EdgeInsets.all(10.0),
+      child: Text(
+        _controller.movieDetail.title,
+        style: Theme.of(context).textTheme.headline6,
+      ),
+    );
+  }
+
+  _buildTagline() {
+    return Container(
+      padding: const EdgeInsets.all(10.0),
+      child: Text(
+        _controller.movieDetail.tagline,
+        style: Theme.of(context).textTheme.headline6,
       ),
     );
   }

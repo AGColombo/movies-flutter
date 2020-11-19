@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'movie_genre.dart';
 import 'production_company_model.dart';
 import 'production_country_model.dart';

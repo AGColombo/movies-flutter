@@ -64,6 +64,7 @@ class _MoviePageState extends State<MoviePage> {
           icon: Icon(Icons.refresh),
           onPressed: _initialize,
         ),
+        IconButton(icon: Icon(Icons.view_module), onPressed: null),
       ],
     );
   }

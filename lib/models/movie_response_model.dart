@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'movie_model.dart';
 
 class MovieResponseModel {
