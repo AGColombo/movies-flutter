@@ -3,9 +3,9 @@
 Aplicativo de lista de filmes utilizando a API do [TMDb](https://www.themoviedb.org/?language=pt-BR) criado para disciplina de Programação Mobile, criado por Kleber de Oliveira Andrade. Desafios resolvidos por Adriano Gianini Colombo
 
 <p align="center">
-    <img src="https://miro.medium.com/max/334/1*QWNFydDZqp2Y12UDsRROHQ.png" width="250"/>
-    <img src="https://miro.medium.com/max/334/1*zk7ckxu63R3zKAGdUdUAbg.png" width="250"/>
-    <img src="https://miro.medium.com/max/334/1*SpoH2wRV3jNAuCk1Hz4EzQ.png" width="250"/>
+    <img src="https://github.com/AGColombo/movies-flutter/blob/main/Screenshot_1605822670.png" width="250"/>
+    <img src="https://github.com/AGColombo/movies-flutter/blob/main/Screenshot_1605822621.png" width="250"/>
+    <img src="https://github.com/AGColombo/movies-flutter/blob/main/Screenshot_1605822636.png" width="250"/>
 </p>
 
 ## Desafio para aula
